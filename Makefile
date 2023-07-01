@@ -1,6 +1,6 @@
-NAME = ft_nm
+NAME = nm
 CC = gcc
-CFLAGS = -Wall -Wextra -Werror -g -fsanitize=address
+CFLAGS = -Wall -Wextra -Werror #-g -fsanitize=address
 RM = rm -rf
 
 SRC = main.c
